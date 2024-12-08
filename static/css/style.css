@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center; /* Center-align text-based elements */
+    display: flex;      /* Use flexbox for vertical alignment */
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    height: 100vh;      /* Full viewport height */
+    margin: 0;          /* Remove default margin */
+}
+
+h1 {
+    color: #333;
+    font-size: 4em;
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+img {
+    max-width: 80%;    /* Reduce size for better fit */
+    height: auto;      /* Maintain aspect ratio */
+    border: 2px solid #ddd;
+    margin: 20px 0;    /* Add spacing above and below the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #005f75;
+}
